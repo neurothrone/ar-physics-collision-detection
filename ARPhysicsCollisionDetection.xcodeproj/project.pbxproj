@@ -9,18 +9,18 @@
 /* Begin PBXBuildFile section */
 		2FF3736328FB186800FE3A39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3736228FB186800FE3A39 /* AppDelegate.swift */; };
 		2FF3736528FB186800FE3A39 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3736428FB186800FE3A39 /* ContentView.swift */; };
-		2FF3736728FB186800FE3A39 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3736628FB186800FE3A39 /* Experience.rcproject */; };
 		2FF3736928FB186900FE3A39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF3736828FB186900FE3A39 /* Assets.xcassets */; };
 		2FF3736C28FB186900FE3A39 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2FF3736B28FB186900FE3A39 /* Preview Assets.xcassets */; };
+		2FF3737328FB189000FE3A39 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF3737228FB189000FE3A39 /* Coordinator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2FF3735F28FB186800FE3A39 /* ARPhysicsCollisionDetection.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARPhysicsCollisionDetection.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FF3736228FB186800FE3A39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FF3736428FB186800FE3A39 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		2FF3736628FB186800FE3A39 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
 		2FF3736828FB186900FE3A39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2FF3736B28FB186900FE3A39 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2FF3737228FB189000FE3A39 /* Coordinator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,7 +55,7 @@
 			children = (
 				2FF3736228FB186800FE3A39 /* AppDelegate.swift */,
 				2FF3736428FB186800FE3A39 /* ContentView.swift */,
-				2FF3736628FB186800FE3A39 /* Experience.rcproject */,
+				2FF3737228FB189000FE3A39 /* Coordinator.swift */,
 				2FF3736828FB186900FE3A39 /* Assets.xcassets */,
 				2FF3736A28FB186900FE3A39 /* Preview Content */,
 			);
@@ -140,9 +140,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FF3737328FB189000FE3A39 /* Coordinator.swift in Sources */,
 				2FF3736528FB186800FE3A39 /* ContentView.swift in Sources */,
 				2FF3736328FB186800FE3A39 /* AppDelegate.swift in Sources */,
-				2FF3736728FB186800FE3A39 /* Experience.rcproject in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
